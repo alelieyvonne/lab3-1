@@ -12,7 +12,7 @@ class News extends BaseController
         $model = model(NewsModel::class);
 
         $data = [
-            'sphernandez_news'  => $model->getNews(),
+            'news'  => $model->getNews(),
             'title' => 'News archive',
         ];
 
