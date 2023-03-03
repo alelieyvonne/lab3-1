@@ -204,7 +204,7 @@ function test_input($data) {
 
  <h1><button><b><i>GUEST FORM</i></b></button></h1>
 <p><span class="error">* required field</span></p>
-<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
+<form method="post" action="/~sphernandez/lab3/ci4/public/home">  
   Name: <input type="text" name="name" value="<?php echo $name;?>">
   <span class="error">* <?php echo $nameErr;?></span>
   <br><br>
