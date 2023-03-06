@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-    <title>Profile</title>
+    <title>CI4</title>
 </head>
 <body>
 
